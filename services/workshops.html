@@ -1,0 +1,50 @@
+---
+layout: full_width_page
+title: workshops
+---
+
+    <div id="events_list" class="page">
+
+        <h1>Upcoming Workshops</h1>
+
+        {% for workshop in site.categories['workshops'] %}
+
+        <!-- Start Event Item -->
+        <div class="list">
+            <div class="box_heading">
+                <h2>{{workshop.date| date: "%B %d, %Y" }}</h2>
+                <span class="line"></span>
+            </div>
+            <div class="event_details">
+                <h5><a href="{{workshop.url}}">{{workshop.title}}</a></h5>
+                <p>{{workshop.content|excerpt}}</p>
+                <div class="right">
+                    <a href="#" class="button green">Book Now</a>
+                    <a href="#" class="button white">Learn More</a>
+                </div>
+            </div>
+            <div class="event_date">
+                <ul class="left">
+                    <li>Dates:</li>
+                    <li>Start:</li>
+                    <li>End:</li>
+                    <li>Venue:</li>
+                    <li>Address:</li>
+                    <li>Cost:</li>
+                </ul>
+                <ul class="right">
+                    <li>{{workshop.workshop_dates}}</li>
+                    <li>{{workshop.start_time}}</li>
+                    <li>{{workshop.end_time}}</li>
+                    <li>{{workshop.location}}</li>
+                    <li>{{workshop.city}}</li>
+                    <li>{{workshop.cost}}</li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Event Item -->
+        {% endfor %}
+
+
+    </div>
+

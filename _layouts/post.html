@@ -1,0 +1,20 @@
+---
+layout: page_with_sidebar
+---
+
+<div id="blog" class="page with_sidebar">
+    <h1>{{page.title}}</h1>
+    <div class="post">
+        <img src="/assets/lib/images/content/blog-1.jpg" alt="" class="rounded" />
+        <div class="meta">
+            <span class="date"> <span class="icon general">i</span>
+                {{page.date|date: "%B %d, %Y"}}
+            </span>
+            <!-- <span class="comments"><span class="icon social_misc">w</span> <a href="" title="">2 Comments</a></span> -->
+            <span class="author"> <span class="icon social_misc">x</span> by {{site.author}}</span>
+        </div>
+        <p>
+        {{ content }}
+        </p>
+    </div>
+</div>

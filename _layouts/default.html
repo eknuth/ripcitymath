@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{site.name}}</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+  <link rel="stylesheet" type="text/css" href="/assets/lib/css/flexslider.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/lib/css/tipsy.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/lib/css/base.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/lib/css/media.queries.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/lib/js/fancybox/jquery.fancybox-1.3.4.css" />
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Pacifico|Cabin:400,700,600,500">
+
+  <!-- Javascripts -->
+  <script type="text/javascript" src="/assets/lib/js/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="/assets/lib/js/html5shiv.js"></script>
+  <script type="text/javascript" src="/assets/lib/js/jquery.tipsy.js"></script>
+  <script type="text/javascript" src="/assets/lib/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script type="text/javascript" src="/assets/lib/js/fancybox/jquery.easing-1.3.pack.js"></script>
+  <script type="text/javascript" src="/assets/lib/js/jquery.mobilemenu.js"></script>
+  <script type="text/javascript" src="/assets/lib/js/jquery.infieldlabel.js"></script>
+  <script type="text/javascript" src="/assets/lib/js/jquery.twitter.js"></script>
+  <script type="text/javascript" src="/assets/lib/js/jquery.quicksand.js"></script>
+  <script type="text/javascript" src="/assets/lib/js/jquery.flexslider-min.js"></script>
+  <script type="text/javascript" src="/assets/lib/js/advocate.js"></script>
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="images/favicon.png" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <!-- Start Navigation -->
+      <nav>
+        <ul>
+          <li class="current-menu-item"><a href="index.html">home</a></li>
+          <li><a href="/about.html">about</a></li>
+          <li>
+            <a href="/services">services</a>
+            <ul>
+              <li><a href="/services/tutoring.html">Private Tutoring</a></li>
+              <li><a href="/services/workshops.html">Workshops</a></li>
+              <li><a href="/services/school_contracts.html">School Contracts</a></li>
+            </ul>
+          </li>
+          <li><a href="/blog">blog</a></li>
+          <!-- <li>
+            <a href="#">resources</a>
+            <ul>
+              <li><a href="gallery_2_columns.html">Math Wiki</a></li>
+              <li><a href="gallery_3_columns.html">Podcasts</a></li>
+            </ul>
+          </li>
+          <li><a href="/calendar.html">calendar</a></li> -->
+        </ul>
+      </nav>
+      <!-- End Navigation -->
+
+      <!-- Start Social Icons -->
+      <aside>
+        <ul class="social icon">
+          <li><a href="" title="Twitter">a</a></li>
+          <li><a href="" title="Facebook">v</a></li>
+          <li><a href="" title="Flickr">d</a></li>
+          <li><a href="" title="Vimeo">c</a></li>
+          <li><a href="" title="Google">t</a></li>
+          <li><a href="" title="RSS">b</a></li>
+          <!-- More Social Icons:
+          <li><a href="" title="Picasa">e</a></li>
+          <li><a href="" title="dribbble">f</a></li>
+          <li><a href="" title="Forrst">g</a></li>
+          <li><a href="" title="deviantART">h</a></li>
+          <li><a href="" title="WordPress">i</a></li>
+          <li><a href="" title="Blogger">j</a></li>
+          <li><a href="" title="Yahoo!">k</a></li>
+          <li><a href="" title="Amazon">l</a></li>
+          <li><a href="" title="LinkedIn">m</a></li>
+          <li><a href="" title="Last.fm">n</a></li>
+          <li><a href="" title="StumbleUpon">o</a></li>
+          <li><a href="" class="Pinterest">p</a></li>
+          <li><a href="" title="Xing">q</a></li>
+          <li><a href="" title="SoundCloud">r</a></li>
+          <li><a href="" title="Delicious">s</a></li>
+          <li><a href="" title="Mail">u</a></li>
+          <li><a href="" title="Google">w</a></li>
+          -->
+        </ul>
+      </aside>
+      <!-- End Social Icons -->
+    </div>
+  </header>
+
+  <section class="page_heading{% if page.title == 'home'%} home{% endif %}">
+    <div class="logo container">
+      <a href="/">{{site.name}}</a>
+      <span class="tagline">{{site.tagline}}</span>
+    </div>
+  </section>
+
+  <!-- Start Home -->
+  {{content}}
+  <!-- End Home -->
+
+  <footer>
+    <div class="container">
+      <div class="widget one_fourth">
+        <h2 class="logo">{{site.name}}</h2>
+        <p>This is a text widget, you can add anything you’d like to this area. Maybe  a little more info about your organization or perhaps even a bit of html.</p>
+      </div>
+      <div class="widget one_fourth">
+        <h5>Twitter</h5>
+
+        <div class="twitter_stream"></div>
+
+      </div>
+      <div class="widget one_fourth">
+        <h5>Newsletter</h5>
+
+        <form action="javascript:;" method="post">
+
+          <p>Signup to receive breaking news.</p>
+
+          <p>
+            <label for="name">Name *</label>
+            <input type="text" name="name" id="name" value="" />
+          </p>
+          <p>
+            <label for="email">Email *</label>
+            <input type="text" name="email" id="email" value="" />
+          </p>
+
+          <input type="submit" class="button white" value="Signup &#x2192;" />
+
+        </form>
+      </div>
+      <div class="widget one_fourth column_last">
+        <h5>Location</h5>
+        <div class="location_widget">
+          <p>
+            {{site.address}} <br/>
+            {{site.city}}
+          </p>
+          <p>
+            <span class="icon general">r</span> {{site.phone}} <br/>
+            <span class="icon general">h</span> <a href="">{{site.email}}</a> <br/>
+            <span class="icon general">l</span> <a href="">{{site.url}}</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="copy">
+        <p>Copyright &copy;{{ site.time | date: '%Y' }} {{site.name}}. All Rights Reserved.</p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>

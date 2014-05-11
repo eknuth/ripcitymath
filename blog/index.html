@@ -1,0 +1,26 @@
+---
+layout: page_with_sidebar
+title: Blog
+---
+
+<div id="blog" class="page with_sidebar">
+
+    <h1>Blog</h1>
+
+    <!-- Start Blog Post -->
+    {% for post in site.categories['blog'] limit:5%}
+    <div class="post">
+        <img src="/assets/lib/images/content/blog-1.jpg" alt="" class="rounded" />
+        <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+        <div class="meta">
+            <span class="date"> <span class="icon general">i</span> {{post.date|date: "%B %d, %Y"}}</span>
+            <!-- <span class="comments"><span class="icon social_misc">w</span> <a href="" title="">2 Comments</a></span> -->
+            <span class="author"> <span class="icon social_misc">x</span> by {{site.author}}</span>
+        </div>
+        <p>{{post.excerpt}} <a href="{{post.url}}">read more...</a></p>
+    </div>
+    {% endfor %}
+    <!-- End Blog Post -->
+
+
+</div>

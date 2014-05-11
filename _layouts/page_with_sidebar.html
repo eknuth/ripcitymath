@@ -1,0 +1,74 @@
+---
+layout: default
+---
+<div class="page_wrapper">
+    <section class="container">
+    {{content}}
+    <aside>
+        <div id="sidebar">
+            <div class="widget widget_search" id="search-2">
+                <form action="http://themes.two2twelve.com/wordpress/advocate/" id="searchform" method="get">
+                    <p>
+                        <label for="s">Enter a search term...</label>
+                        <input type="text" id="s" class="text_field" name="s" value="">
+                        <input type="submit" value="Search" id="searchsubmit" class="button white">
+                    </p>
+                </form>
+            </div>
+
+            <div class="widget">
+                <h5>Recent Posts</h5>
+                <div class="recent_posts">
+                    <ul>
+                        {% for post in site.categories['blog'] limit: 5 %}
+                        <li>
+                            <a href="{{post.url}}">{{post.title}}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+
+                </div>
+            </div>
+
+           <!--  <div class="widget">
+                <h5>Categories</h5>
+                <div class="widget_categories">
+                    <ul>
+                        {% for tag in site.tags %}
+                        <li>
+                            <a href="">{{tag|first}} <span>{{ tag | last | size }}</span></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+
+                </div>
+            </div> -->
+
+            <div class="widget">
+                <h5>Pinterest</h5>
+                <div class="gallery">
+                    <ul>
+                        <li><img src="/assets/lib/images/content/gallery_thumb_1.jpg" alt="" /></li>
+                        <li><img src="/assets/lib/images/content/gallery_thumb_2.jpg" alt="" /></li>
+                        <li><img src="/assets/lib/images/content/gallery_thumb_3.jpg" alt="" /></li>
+                        <li><img src="/assets/lib/images/content/gallery_thumb_4.jpg" alt="" /></li>
+                        <li><img src="/assets/lib/images/content/gallery_thumb_5.jpg" alt="" /></li>
+                        <li><img src="/assets/lib/images/content/gallery_thumb_6.jpg" alt="" /></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="widget">
+                <h5>Pod Casts</h5>
+                <div class="video">
+                    <iframe src="http://player.vimeo.com/video/43580167?title=0&amp;byline=0&amp;portrait=0" width="215" height="121"></iframe>
+                </div>
+                <p>by Revolution</p>
+            </div>
+
+        </div>
+    </aside>
+    </section>
+</div>
+
