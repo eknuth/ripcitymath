@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 categories: workshops
 date: "2014-08-15 00:00:00-700"
