@@ -1,25 +1,33 @@
 ---
 layout: post
-title:  "Pythagoerean Theorem"
-date:   2014-05-10 19:56:26
+title: Summer Math Workshops
+date: {}
 categories: blog
-tags: ["Math History"]
+tags: 
+  - Math History
+published: true
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+I am excited and pleased to offer the following math workshops in August 2014 at [TaborSpace](http://taborspace.org/about/) in SE Portland. I am listing them here and they will also soon be listed in much greater detail under the "services" drop-down menu where you can select "workshops"
 
-Jekyll also offers powerful support for code snippets:
+August 2014
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+8/04 Fractions I 
+8/05 Fractions II
+8/07 Patterns in Mathematics
+8/08 Cryptography*
+8/11 Algebra I
+8/12 Algebra II
+8/14 Times Tables
+8/15 Math & Art*
+8/22 Logic Puzzles*
+8/25 Geometry I
+8/26 Geometry II
+8/28 Times Tables
+8/29 Math Games for Family Night*
+8/31 Math Literacy Seminar for all Ages
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+*These are 1 & 2 hour sessions for a family math night series where you are encouraged to bring the whole family for an hour from 4:30-5:30pm with the exception of Math & Art on 8/15 which is a 2 hour session. 
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+
+
