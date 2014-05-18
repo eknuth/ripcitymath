@@ -18,3 +18,12 @@ August 2014
 8/08 Cryptography
 8/11 Algebra I
 8/12 Algebra II
+8/14 Times Tables
+8/15 Math & Art
+8/22 Logic Puzzles
+8/25 Geometry I
+8/26 Geometry II
+8/28 Times Tables
+8/29 Math Games for Family Night
+8/31 Math Literacy Seminar for all Ages
+
