@@ -27,5 +27,7 @@ August 2014
 8/29 Math Games for Family Night*
 8/31 Math Literacy Seminar for all Ages
 
+*These are 1 & 2 hour sessions for a family math night series where you are encouraged to bring the whole family for an hour from 4:30-5:30pm with the exception of Math & Art on 8/15 which is a 2 hour session. 
+
 
 
