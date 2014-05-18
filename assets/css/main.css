@@ -8,7 +8,9 @@ p {
 .right {
   float: right;
 }
-
+.event_date .buttons {
+    margin-top: 20px;
+}
 #programs .button {
   padding: 10px;
   margin-top: 10px;

@@ -18,10 +18,6 @@ title: workshops
             <div class="event_details">
                 <h5><a href="{{workshop.url}}">{{workshop.title}}</a></h5>
                 <p>{{workshop.content|excerpt}}</p>
-                <div class="right">
-                    <a href="#" class="button green">Book Now</a>
-                    <a href="#" class="button white">Learn More</a>
-                </div>
             </div>
             <div class="event_date">
                 <ul class="left">
@@ -40,7 +36,12 @@ title: workshops
                     <li>{{workshop.city}}</li>
                     <li>{{workshop.cost}}</li>
                 </ul>
+                <div class="right buttons">
+                    <a href="#" class="button white">Learn More</a>
+                    <a href="#" class="button green">Book Now</a>
+                </div>
             </div>
+
         </div>
         <!-- End Event Item -->
         {% endfor %}
