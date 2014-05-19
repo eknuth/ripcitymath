@@ -26,7 +26,7 @@ August 2014
 ## Cost
 - $30/2 hr.workshop
 - $50/I&II Series workshop
-_Come to all three sessions that week and get into Friday math night free!_
+- _Come to all three sessions that week and get into Friday math night free!_
 - $10/1-3 people for the 1hr Family Math Nights
 - $15/4 or more people for the 1hr Family Math Nights
 - $25/1-3 people for the 2hr Math & Art Family Math Nights
