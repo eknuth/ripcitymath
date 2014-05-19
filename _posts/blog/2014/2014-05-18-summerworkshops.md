@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## Summer Math Workshops August 2014
