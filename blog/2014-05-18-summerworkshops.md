@@ -23,7 +23,7 @@ August 2014
 
 *These are 1 & 2 hour interactive presentations for a family math night series which you are encouraged to bring the whole family for an hour from 4:30-5:30pm with the exception of Math & Art on 8/15 which is a 2 hour 4:30-6:30pm session. 
 
-Cost
+## Cost
 $30/2 hr.workshop
 $50/I&II Series workshop
 Come to all three sessions that week and get into Friday math night free!
@@ -32,4 +32,3 @@ $15/4 or more people for the 1hr Family Math Nights
 $25/1-3 people for the 2hr Math & Art Family Math Nights
 $5 for each additional participant
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
