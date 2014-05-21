@@ -288,7 +288,7 @@ div.flexslider-container {
 	}
 	.flex-caption { background: rgba(0,0,0,0.6); }
 	span.color {
-		color: #db9a6a;
+		color: rgb(53, 52, 85);
 	}
 	div#revolution_wrap {
 		overflow: hidden;
@@ -318,7 +318,9 @@ div.flexslider-container {
 		overflow: hidden;
 		padding: 20px 15px 20px 15px;
 		border: 1px solid #e5e5e5;
-		background: #f8f8f6;
+		/*background: #f8f8f6;*/
+		background-image: url('../../img/graphy/graphy.png');
+		background-repeat: repeat;
 		-webkit-border-radius: 4px;
 		-moz-border-radius: 4px;
 		border-radius: 4px;
