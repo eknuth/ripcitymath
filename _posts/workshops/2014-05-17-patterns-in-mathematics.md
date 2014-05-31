@@ -12,4 +12,7 @@ city: "Portland, OR"
 cost: $30/day
 ---
 
-This course will explore...
+
+More details to come soon...
+but if you could only choose one workshop to come to, this is the one!
+All workshops emphasize respectful comraderie, cooperative learning, question-asking, and use a hands-on, playful, student-led approach.
