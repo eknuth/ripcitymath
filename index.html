@@ -16,29 +16,21 @@ published: true
         <div class="flexslider-container">
           <div id="slider" class="flexslider">
             <ul class="slides">
+              {% for post in site.categories['slider'] limit:5%}
               <li>
-                    <img src="/assets/img/600px-Order-3_heptakis_heptagonal_tiling.png" alt="" />
+                {% if post.link %}
+                <a href="{{post.link}}"><img src="/assets/img/{{post.img}}" alt="" /></a>
+                {% else %}
+                <img src="/assets/img/{{post.img}}" alt="" />
+                {% endif %}
                 <p class="flex-caption">
-                  <b>Complimentary 30 minute Sessions</b>
-                <b class="right">image courtesy of Claudio Rocchini</b>
-                <li>
-                    <img src="/assets/lib/images/content/slide-2.jpg" alt="" />
-                <p class="flex-caption">
-                  <b>Build Confidence</b>
-                </p>
-                </li>
-              <li>
-                    <img src="/assets/lib/images/content/slide-3.jpg" alt="" />
-                <p class="flex-caption">
-                  <b>Be Prepared</b>
-                </p>
-                </li>
-                <li>
-                    <img src="/assets/lib/images/content/slide-4.jpg" alt="" />
-                <p class="flex-caption">
-                  <b>Discover The Language of Mathematics</b>
-                </p>
-                </li>
+                  {% if post.link %}
+                  <b><a href="{{post.link}}">{{post.title}}</a></b>
+                  {% else %}
+                  <b>{{post.title}}</b>
+                  {% endif %}
+                <b class="right">{{post.attrib}}</b>
+              {% endfor %}
               </ul>
           </div>
         </div>
