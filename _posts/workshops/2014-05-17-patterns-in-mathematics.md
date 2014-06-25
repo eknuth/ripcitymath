@@ -12,7 +12,6 @@ city: "Portland, OR"
 cost: $30/day
 ---
 
-
-More details to come soon...
-but if you could only choose one workshop to come to, this is the one!
+When you start paying attention to patterns in the world, you gain insight and the ability to predict the future. Weather forecasters predict the weather based on nature's weather patterns that repeat themselves a certain way with a predictable outcome. When you start to be able to assign numbers to real objects and then study those number patterns, you can obtain fascinating information about the world.
+Learn about and practice extending a pattern with picture and number sequences, square numbers, cubed numbers, triangle numbers, Fibonacci numbers, Pascal's triangle, Magic Squares, fractals, tesselations, rhythm and symmetry.
 All workshops emphasize respectful comraderie, cooperative learning, question-asking, and use a hands-on, playful, student-led approach.
