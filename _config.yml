@@ -2,7 +2,7 @@ name: Rip City Math
 tagline: private tutoring in southeast portland
 markdown: redcarpet
 pygments: true
-permalink: /blog/:year/:month/:day/:title
+permalink: /post/:year/:month/:day/:title
 address: 4737 SE Kelly St
 city: Portland, Oregon, 97206
 timezone: America/Los_Angeles

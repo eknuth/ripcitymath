@@ -54,9 +54,9 @@ published: true
               <div class="inner">
                 <div class="box_heading">
                   <span class="icon general-enclosed">2</span>
-                  <h4>Register for Math Workshops</h4>
+                  <h4>Register for Workshops</h4>
                 </div>
-                <p>To register for a workshop, please email ripcitymath@gmail.com or call 971-266-1213
+                <p>To register for a workshop, please email <a href="mailto:ripcitymath@gmail.com" target="_blank">ripcitymath@gmail.com</a> or call 971-266-1213
                 </p>
               </div>
             </div>
@@ -100,70 +100,47 @@ published: true
         <div id="items">
 
           <!-- Start News -->
-          <div class="news one_third">
+          <div class="news two_thirds">
             <div class="box_heading">
               <h2>Blog</h2>
               <span class="line"></span>
             </div>
             <ul>
+              {% for post in site.categories['blog'] reversed limit:4 %}
               <li>
-                <h5><a href="blog_single.html">Summer Workshops</a></h5>
-                <p>Coming August 2014!</p>
+                <h5><a href="{{post.url}}">{{post.title}}</a></h5>
+                <p>{{post.excerpt}}</p>
+                <div class="right">
+                  <a href="{{post.url}}">read more...</a>
+                </div>
               </li>
-              <li>
-                <h5><a href="blog_single.html">Math Curriculums in Portland Public Schools</a></h5>
-                <p>A list of which schools use which curriculums including links when possible.</p>
-              </li>
-              <li>
-                <h5><a href="blog_single.html">Times Tables</a></h5>
-                <p>Some curious information</p>
-              </li>
-
+              {% endfor %}
             </ul>
           </div>
           <!-- End News -->
 
           <!-- Start Events -->
-          <div class="events one_third">
+          <div class="events one_third column_last">
             <div class="box_heading">
               <h2>Events</h2>
               <span class="line"></span>
             </div>
             <ul>
+              {% for workshop in site.categories['workshops'] reversed limit:4 %}
               <li>
-                <div class="date"><span>23</span> May</div>
+                <div class="date"><span>{{workshop.date| date: "%d" }}</span> {{workshop.date| date: "%b" }}</div>
                 <div class="details">
-                  <h5><a href="event_description.html">Community Math Seminar</a></h5>
-                  <p>TaborSpace Annex</p>
+                  <h5><a href="{{workshop.url}}">{{workshop.title}}</a></h5>
+                  <p>{{workshop.location}}</p>
                 </div>
               </li>
-              <li>
-                <div class="date"><span>31</span> August</div>
-                <div class="details">
-                  <h5><a href="event_description.html">Another Math Thing</a></h5>
-                  <p>6pm My House</p>
-                </div>
-              </li>
-              <li>
-                <div class="date"><span>21</span> May</div>
-                <div class="details">
-                  <h5><a href="event_description.html">Math Gardening</a></h5>
-                  <p>2pm @ Foster Community Garden</p>
-                </div>
-              </li>
-              <li>
-                <div class="date"><span>18</span> May</div>
-                <div class="details">
-                  <h5><a href="event_description.html">Parent Discussion</a></h5>
-                  <p>10am @ Rip City Math</p>
-                </div>
-              </li>
+              {% endfor %}
             </ul>
           </div>
           <!-- End Events -->
 
           <!-- Start Sponsors -->
-          <div id="sponsors" class="one_third column_last">
+       <!--    <div id="sponsors" class="one_third column_last">
             <div class="box_heading">
               <h2>Websites I Love</h2>
               <span class="line"></span>
@@ -178,7 +155,7 @@ published: true
               <li class="bottom"><img src="/assets/lib/images/content/sponsor-9.png" alt="Sponsor 9" /></li>
               <li class="bottom last"><img src="/assets/lib/images/content/sponsor-7.png" alt="Sponsor 7" /></li>
             </ul>
-          </div>
+          </div> -->
           <!-- End Sponsors -->
 
         </div>
