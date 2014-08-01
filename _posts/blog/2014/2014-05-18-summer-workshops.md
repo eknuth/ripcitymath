@@ -6,35 +6,22 @@ excerpt: I am excited and pleased to offer the following math workshops in Augus
 ---
 
 ## Summer Math Workshops August 2014
-I am excited and pleased to offer the following math workshops in August 2014 at [TaborSpace](http://taborspace.org/about/) in SE Portland.
+I am excited and pleased to offer the following math workshops in August 2014 at [TaborSpace](http://taborspace.org/about/) in SE Portland. For a detailed description of each workshop, it's time, location and cost, please select "Services" in the menu bar above and then click on "workshops."
 
 
 ### August 2014
--	8/04 Fractions I
--	8/05 Fractions II
--	8/07 Patterns in Mathematics
--	8/08 Cryptography*
--	8/11 Algebra I
--	8/12 Algebra II
--	8/14 Times Tables
--	8/15 Math & Art*
--	8/12 Algebra II
--	8/14 Times Tables
--	8/15 Math & Art*
--	8/22 Logic Puzzles*
--	8/25 Geometry I
--	8/26 Geometry II
--	8/28 Times Tables
--	8/29 Math Games for Family Night*
--	8/31 Math Literacy Seminar for all Ages
+-	Mon. 8/04 Fractions I (9:30-11:30am)
+-	Tues. 8/05 Fractions II (9:30-11:30am)
+-	Thurs. 8/07 Patterns in Mathematics (9:30-11:30am)
+-	Fri. 8/08 Secret Codes (4:30pm-5:30pm)
+-	Mon. 8/11 Algebra I (9:30-11:30am)
+-	Tues. 8/12 Algebra II (9:30-11:30am)
+-	Thurs. 8/14 Times Tables (9:30-11:30am)
+-	Fri. 8/15 Math & Art* (4:30pm-6:30pm)
+-	Fri. 8/22 Logic Puzzles* (4:30pm-5:30pm)
+-	Mon. 8/25 Geometry I (9:30-11:30am)
+-	Tues. 8/26 Geometry II (9:30-11:30am)
+-	Thurs. 8/28 Times Tables (9:30-11:30am)
+-	Fri. 8/29 Math Games for Family Night (4:30pm-5:30pm)
+-	Sun. 8/31 Math Slam for all Ages (7-8:30pm)
 
-*These are 1 & 2 hour interactive presentations for a family math night series which you are encouraged to bring the whole family for an hour from 4:30-5:30pm with the exception of Math & Art on 8/15 which is a 2 hour 4:30-6:30pm session.
-
-## Cost
--	$30/2 hr.workshop
--	$50/I&II Series workshop
--	_Come to all three sessions that week and get into Friday math night free!_
--	$10/1-3 people for the 1hr Family Math Nights
--	$15/4 or more people for the 1hr Family Math Nights
--	$25/1-3 people for the 2hr Math & Art Family Math Nights
--	$5 for each additional participant
