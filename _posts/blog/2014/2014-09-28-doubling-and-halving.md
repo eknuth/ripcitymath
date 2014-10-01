@@ -8,6 +8,7 @@ blogpage: https://farm3.staticflickr.com/2944/15408066585_3fdca0807c_c_d.jpg
 
 Does your child understand what doubling means? The relationship between doubling and halving quantities? That doubling means x2 and halving means /2? How can you guide your child to understanding these relationships? Doubling and halving numbers is one of the foundations of number sense. There is a pattern to doubling numbers. Once your child knows doubles, he or she can add using the strategy "doubles plus 1" (e.g. 6+7) and "doubles plus 2" (e.g. 6+8). Knowing twice a number helps with story problems that use such vocabulary. It also is a great step to learning 4 times tables  because you double your double. Finding half of a number shows ones ability to deconstruct a number and understand that it is made up of parts. Solidifying the concept that halving is the same as dividing by 2 is a worthy mathematical task to help young children understand early on. Read on for how you can set up these tasks for your child.
 
+
 Begin with 0 objects. Then 1, 2, 3 objects (like buttons or coins) and so forth going up sequentially, suggesting your child find a method of keeping track of each number and its results when doubled.
 
 Next, to guide your child to an understanding that double means twice as much, 2 times, or 2 groups of, show photographs of real objects (books, buttons, glasses, blocks, etc.) with an amount next to it that is twice as much. Better yet, engage your child in a game using real objects such as books. She or he must always make double your stack.
