@@ -20,3 +20,11 @@ p {
 .flex-caption a {
     color: white;
 }
+
+.news .blog-img {
+    padding: 5px 15px 0px 0px;
+}
+
+.post img {
+    width: 100%;
+}
